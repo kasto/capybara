@@ -16,6 +16,9 @@ matrix:
       rvm: 2.2
     - gemfile: gemfiles/Gemfile.beta-versions
       rvm: jruby-9.0.0.0.pre1
+    - gemfile: Gemfile
+      rvm: 2.2
+      env: CAPYBARA_CHROME=true
   allow_failures:
     - gemfile: gemfiles/Gemfile.beta-versions
       rvm: 2.2
